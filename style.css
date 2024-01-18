@@ -1,0 +1,188 @@
+/* RESETE */
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+/* RESETE */
+
+* {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+body {
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+h1 {
+    color: #FF6A28;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 16px;
+    color: #61656D;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 798px;
+    height: 574px;
+    border-radius: 5px;
+    padding: 20px 26px 32px 27px;
+    box-sizing: border-box;
+}
+
+.card-box {
+    width: 118px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-ana-box {
+    width: 228px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-title {
+    color: #61656D;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.card-title-ana {
+    color: #FF6A2B;
+    font-size: 14px;
+}
+
+.ana-info {
+    color: #61656D;
+    font-size: 14px;
+}
+
+.card-info {
+    color: #FF6A2B;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.header-subtitle {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.secondary-container {
+    background-color: #FFFFFF;
+    width: 798px;
+    height: 335px;
+    border-radius: 5px;
+    padding: 20px 26px 32px 27px;
+    box-sizing: border-box;
+}
+
+.tertiary-container {
+    background-color: #FFFFFF;
+    width: 798px;
+    height: 405px;
+    border-radius: 5px;
+    padding: 20px 10px 33px 10px;
+    box-sizing: border-box;
+}
+
+.fourth-container {
+    background-color: #FFFFFF;
+    width: 798px;
+    height: 356px;
+    border-radius: 5px;
+    padding: 20px 26px 32px 27px;
+    margin-bottom: 63px;
+    box-sizing: border-box;
+}
+
+.subtitle {
+    color: #FF6A2B;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.ingredient-list {
+    color: #61656D;
+    font-size: 14px;
+}
+
+.ingredient-list li {
+    margin-bottom: 10px;
+}
+
+.preparation-list {
+    color: #61656D;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-left: 26px;
+    padding: 0;
+    line-height: normal;
+}
+
+.preparation-list li{
+    margin-bottom: 10px;
+    list-style-type: none; 
+    padding: 0;
+    
+}
+
+.preparation-list-item {
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.header-info {
+    color: #61656D;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #F0F0F0;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+.info-text {
+    color: #61656D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 23px;
+}
